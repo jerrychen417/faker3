@@ -1,0 +1,41 @@
+京东定时任务库
+下方缙哥哥整理 GitHub 上的一些任务库，通过添加任务，并设置定时规则，使其自动拉取、更新羊毛任务。
+
+Faker 集合仓库
+
+ql repo https://ghproxy.com/https://github.com/shufflewzc/faker2.git "jd_|jx_|getJDCookie" "activity|backUp" "^jd[^_]|USER|ZooFaker_Necklace"
+Curtinlv 仓库
+
+ql repo https://github.com/curtinlv/JD-Script.git
+Star
+
+ql repo https://github.com/star261/jd.git "scripts" "code"
+怨念集合仓库
+
+ql repo https://hub.fastgit.org/yuannian1112/jd_scripts.git "jd_|jx_|getJDCookie" "activity|backUp" "^jd[^_]|USER|utils"
+ddo（hyzaw）
+
+ql repo https://ghproxy.com/https://github.com/shufflewzc/hyzaw.git "ddo_"
+柠檬（胖虎）
+
+ql repo https://github.com/panghu999/panghu.git "jd_"
+温某某
+
+ql repo https://ghproxy.com/https://github.com/shufflewzc/Wenmoux.git
+混沌
+
+ql repo https://github.com/whyour/hundun.git "quanx" "tokens|caiyun|didi|donate|fold|Env"
+龙珠
+
+ql repo https://github.com/whyour/hundun.git "quanx" "tokens|caiyun|didi|donate|fold|Env"
+咱们为了防止漏掉某些羊毛，上方所有的库新建定时任务拉取，里面有重复脚本禁用脚本，重复的内容会被禁用的。
+
+
+定时规则
+这里的定时规则如下：
+
+秒 分 时 天 月 周
+各个单位之间分别以空格分割，假设该任务需要每天12:23:45执行一次。那么则应该这么设置：
+
+45 23 12 * * *
+拉完之后记得运行，不运行的话要等到你设置好的时间才会自动执行。运行后会自动拉去一些执行活动的脚本。
